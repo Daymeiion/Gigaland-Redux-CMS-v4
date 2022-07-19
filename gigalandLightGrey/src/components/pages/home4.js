@@ -26,10 +26,10 @@ const GlobalStyles = createGlobalStyle`
     background: rgba(131,100,266, .2);
   }
   .yelbg{
-    background-color: rgb(255, 249, 225);
+    background-color: rgb(0, 51, 255);
   }
   .yelbg-2{
-    background-color: rgb(247, 255, 231);
+    background-color: #ffbb00;
   }
   .greybg{
     background-color: rgb(246, 245, 251);
