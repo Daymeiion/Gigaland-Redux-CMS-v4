@@ -23,7 +23,7 @@ const GlobalStyles = createGlobalStyle`
   }
   .btn2{
     background: #f6f6f6;
-    color: #8364E2 !important;
+    color: #0033ff !important;
   }
   @media only screen and (max-width: 1199px) {
     .navbar{

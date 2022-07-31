@@ -5,6 +5,8 @@
   "homepage": "./",
   "dependencies": {
     "@alch/alchemy-web3": "^1.1.8",
+    "@thirdweb-dev/react": "^2.5.1",
+    "@thirdweb-dev/sdk": "^2.3.31",
     "@tim-soft/react-spring-web": "^9.0.0-beta.36",
     "axios": "^0.23.0",
     "bignumber.js": "^9.0.2",
@@ -14,6 +16,7 @@
     "elegant-icons": "0.0.1",
     "emailjs-com": "^3.2.0",
     "et-line": "^1.0.1",
+    "ethers": "^5.6.9",
     "font-awesome": "^4.7.0",
     "formik": "^2.2.9",
     "moment": "^2.29.1",

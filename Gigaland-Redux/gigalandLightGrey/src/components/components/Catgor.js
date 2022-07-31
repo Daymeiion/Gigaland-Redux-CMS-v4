@@ -6,25 +6,25 @@ const catgor= () => (
     <div className="col-md-2 col-sm-4 col-6 mb-3">
         <Link className="icon-box style-2 rounded" to="">
             <i className="fa fa-image"></i>
-            <span>Art</span>
+            <span>Fan Art</span>
         </Link>
     </div>
     <div className="col-md-2 col-sm-4 col-6 mb-3">
         <Link className="icon-box style-2 rounded" to="">
-            <i className="fa fa-music"></i>
-            <span>Music</span>
+            <i className="fa fa-diamond"></i>
+            <span>Official NFT's</span>
         </Link>
     </div>
     <div className="col-md-2 col-sm-4 col-6 mb-3">
         <Link className="icon-box style-2 rounded" to="">
-            <i className="fa fa-search"></i>
-            <span>Domain Names</span>
+            <i className="fa fa-tags"></i>
+            <span>Merchandise</span>
         </Link>
     </div>
     <div className="col-md-2 col-sm-4 col-6 mb-3">
         <Link className="icon-box style-2 rounded" to="">
-            <i className="fa fa-globe"></i>
-            <span>Virtual Worlds</span>
+            <i className="fa fa-users"></i>
+            <span>NFT Memberships</span>
         </Link>
     </div>
     <div className="col-md-2 col-sm-4 col-6 mb-3">
@@ -35,7 +35,7 @@ const catgor= () => (
     </div>
     <div className="col-md-2 col-sm-4 col-6 mb-3">
         <Link className="icon-box style-2 rounded" to="">
-            <i className="fa fa-th"></i>
+            <i className="fa fa-trophy"></i>
             <span>Collectibles</span>
         </Link>
     </div>

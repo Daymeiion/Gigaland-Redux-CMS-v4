@@ -1030,10 +1030,11 @@ a{
         padding-left: 30px;
         #quick_search {
             padding: 4px 11px;
-            border: none;
+            border: solid #ffbb00;
+            border-width: 2px;
             border-radius: 6px;
             font-size: 15px;
-            background: #ffbb0080;
+            background:none;
             width: 274px;
             height: 34px;
             outline: none;
@@ -1655,7 +1656,7 @@ footer{
           i {
             text-shadow: none;
             color: $white;
-            background: $color_more;
+            background: #0033ff;
             padding: 12px 10px 8px 10px;
             width: 34px;
             height: 34px;
@@ -2108,7 +2109,7 @@ address {
       }
       &:hover{
         .btn-main{
-          box-shadow: 2px 2px 20px 0px rgba(131, 100, 226, 0.5);
+          box-shadow: 2px 2px 20px 0px #ffbb0080;
           transition: all 0.3s ease;
         }
       }
@@ -2160,7 +2161,7 @@ address {
       margin-bottom: 20px;
       position: relative;
       padding-right: 100px;
-      background: rgba(131,100,226,.07);
+      background: #d3d3d3;
       img {
         width: 80px;
         position: absolute;
@@ -2339,7 +2340,7 @@ i.font60 {
     background: none;
     width: auto;
     height: auto;
-    color: rgba(131,100,226, .1);
+    color: #ffbb0075;
     right: 0;
     top: 30%;
 }
@@ -2378,13 +2379,13 @@ i.font60 {
 .feature-box.f-boxed {
     overflow: none;
     padding: 50px;
-    background: #ffbb0075;
+    background: #0033ff;
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     transition: .7s;
     &:hover{
-      background: #403f83;
+      background: #ffbb00;
       transition: .7s;
     }
 }
@@ -2523,6 +2524,7 @@ i.font60 {
     padding-bottom: 10px;
     border: solid 1px #dddddd;
     border-radius: 10px;
+    box-shadow: 0 4px 5px 0 rgb(0 0 0 / 10%), 0 2px 11px 0 rgb(0 0 0 / 15%);
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     margin: 10px;
@@ -2709,6 +2711,7 @@ i.font60 {
     margin: 10px;
     border: solid 1px #ddd;
     border-radius: 15px;
+    box-shadow: 0 4px 5px 0 rgb(0 0 0 / 10%), 0 2px 11px 0 rgb(0 0 0 / 15%);
     -moz-border-radius: 15px;
     -webkit-border-radius: 15px;
     margin-bottom: 25px;
@@ -2887,7 +2890,7 @@ i.font60 {
       img{
         padding: 1px;
         background: $gray;
-        box-shadow: 0px 0px 0px 4px rgba(131, 100, 226, 1);
+        box-shadow: 0px 0px 0px 4px #0033ff;
         transition: .2s ease;
       }
     }
@@ -2925,6 +2928,7 @@ i.font60 {
 .icon-box.style-2 {
     border: none;
     background: rgba(243,243,243);
+    box-shadow: 0 4px 5px 0 rgb(0 0 0 / 10%), 0 6px 15px 0 rgb(0 0 0 / 15%);
 }
 .text-light .icon-box {
     border: solid 2px rgba(255, 255, 255, .1);
@@ -2938,9 +2942,9 @@ i.font60 {
 }
 .icon-box span {
     display: block;
-    color: #606060;
+    color: #0033ff;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 15px;
     margin-top: 5px;
     line-height: 1.4em;
 }
@@ -4140,7 +4144,7 @@ img.img-rounded{
     border-radius: 5px;
     margin-bottom: 8px;
     h5{
-      color: $color;
+      color: #0033ff;
       font-size: 14px;
       font-weight: 500;
       margin-bottom: 5px;

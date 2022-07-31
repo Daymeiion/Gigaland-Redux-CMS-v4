@@ -275,33 +275,7 @@ const Header = function({ className }) {
                 <Breakpoint xl>
                   <div className='menu'>
                     <div className='navbar-item'>
-                        <div ref={ref}>
-                          <div className="dropdown-custom dropdown-toggle btn" 
-                             onMouseEnter={handleBtnClick} onMouseLeave={closeMenu}>
-                            Home
-                            <span className='lines'></span>
-                            {openMenu && (
-                            <div className='item-dropdown'>
-                              <div className="dropdown" onClick={closeMenu}>
-                                <NavLink to="/homeGrey">Homepage Grey</NavLink>
-                                <NavLink to="/">Homepage</NavLink>
-                                <NavLink to="/home1">Homepage 1</NavLink>
-                                <NavLink to="/home1Grey">Homepage 1 Grey</NavLink>
-                                <NavLink to="/home2">Homepage 2</NavLink>
-                                <NavLink to="/home2Grey">Homepage 2 Grey</NavLink>
-                                <NavLink to="/home3">Homepage 3</NavLink>
-                                <NavLink to="/home4">Homepage 4</NavLink>
-                                <NavLink to="/home5">Homepage 5</NavLink>
-                                <NavLink to="/home6">Homepage 6</NavLink>
-                              </div>
-                            </div>
-                          )}
-                          </div>
-                          
-                        </div>
-                    </div>
-                    <div className='navbar-item'>
-                      <div ref={ref1}>
+                      <div ref={ref}>
                           <div className="dropdown-custom dropdown-toggle btn" 
                              onMouseEnter={handleBtnClick1} onMouseLeave={closeMenu1}>
                             Explore
@@ -309,21 +283,12 @@ const Header = function({ className }) {
                             {openMenu1 && (
                             <div className='item-dropdown'>
                               <div className="dropdown" onClick={closeMenu1}>
-                              <NavLink to="/explore">Explore</NavLink>
-                              <NavLink to="/exploreGrey">Explore Grey</NavLink>
-                              <NavLink to="/explore2">Explore 2</NavLink>
-                              <NavLink to="/explore2Grey">Explore 2 Grey</NavLink>
-                              <NavLink to="/exploreOpensea">Explore OpenSea</NavLink>
-                              <NavLink to="/rangking">Rangking</NavLink>
-                              <NavLink to="/rangkingGrey">Rangking Grey</NavLink>
+                              <NavLink to="/rangking">Rankings</NavLink>
                               <NavLink to="/colection/1">Collection</NavLink>
-                              <NavLink to="/colectionGrey/1">Collection Grey</NavLink>
                               <NavLink to="/ItemDetail/1">Items Details</NavLink>
-                              <NavLink to="/ItemDetailGrey/1">Items Details Grey</NavLink>
                               <NavLink to="/Auction">Live Auction</NavLink>
-                              <NavLink to="/AuctionGrey">Live Auction Grey</NavLink>
                               <NavLink to="/helpcenter">Help Center</NavLink>
-                              <NavLink to="/helpcenterGrey">Help Center Grey</NavLink>
+                              
                               </div>
                             </div>
                           )}

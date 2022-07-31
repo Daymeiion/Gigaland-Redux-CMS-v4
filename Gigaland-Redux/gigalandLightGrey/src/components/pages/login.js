@@ -79,7 +79,7 @@ const Logintwo = () => {
   return (
     <div>
       <GlobalStyles/>
-      <section className='jumbotron breadcumb no-bg' style={{backgroundImage: `url(${'./img/background/subheader.jpg'})`}}>
+      <section className='jumbotron breadcumb no-bg' style={{backgroundImage: `url(${'./img/background/football-stadium.png'})`}}>
         <div className='mainbreadcumb'>
           <div className='container'>
             <div className='row align-items-center'>

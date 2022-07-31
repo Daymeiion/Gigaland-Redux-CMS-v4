@@ -5,8 +5,8 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
   header#myHeader.navbar.sticky.white {
-    background: #403f83;
-    border-bottom: solid 1px #403f83;
+    background: #858585;
+    
   }
   header#myHeader.navbar .search #quick_search{
     color: #fff;
@@ -50,7 +50,7 @@ const wallet= () => (
 <div>
 <GlobalStyles/>
 
-  <section className='jumbotron breadcumb no-bg' style={{backgroundImage: `url(${'./img/background/subheader.jpg'})`}}>
+  <section className='jumbotron breadcumb no-bg' style={{backgroundImage: `url(${'./img/background/bltzartbg2.png'})`}}>
     <div className='mainbreadcumb'>
       <div className='container'>
         <div className='row m-10-hor'>

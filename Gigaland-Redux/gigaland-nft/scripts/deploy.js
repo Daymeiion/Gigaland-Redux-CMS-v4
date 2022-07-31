@@ -1,4 +1,4 @@
-async function main() {
+npasync function main() {
     const MyNFT = await ethers.getContractFactory("MyNFT")
 
     // Start deployment, returning a promise that resolves to a contract object
